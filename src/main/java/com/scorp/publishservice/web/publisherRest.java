@@ -31,7 +31,7 @@ public class publisherRest {
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
-		return ResponseEntity.ok().body("Bad Request");
+		return ResponseEntity.ok().body("Bad Request !");
 
 	}
 }
